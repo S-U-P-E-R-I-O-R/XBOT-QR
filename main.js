@@ -67,14 +67,27 @@ const {
                         let code = btoa(data);
                         var words = code.split("");
                         var ress = words[Math.floor(words.length / 2)];
-                        let c = code.split(ress).join(ress + "_XASENA_");
+                        let c = code.split(ress).join(ress + "_FINU-BOT_");
                         await session.sendMessage(session.user.id, {
                             text: `${c}`
                         })
                         await session.sendMessage(session.user.id, {
-                            text: `\n*ᴅᴇᴀʀ ᴜsᴇʀ ᴛʜɪs ɪs ʏᴏᴜʀ sᴇssɪᴏɴ ɪᴅ*
+                            text: `\n_👋Hey This Is Your Session Id_
+ _⚠️Dont Share This With Anyone_
 
-                            ◕ ⚠️ *ᴘʟᴇᴀsᴇ ᴅᴏ ɴᴏᴛ sʜᴀʀᴇ ᴛʜɪs ᴄᴏᴅᴇ ᴡɪᴛʜ ᴀɴʏᴏɴᴇ ᴀs ɪᴛ ᴄᴏɴᴛᴀɪɴs ʀᴇǫᴜɪʀᴇᴅ ᴅᴀᴛᴀ ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ᴄᴏɴᴛᴀᴄᴛ ᴅᴇᴛᴀɪʟs ᴀɴᴅ ᴀᴄᴄᴇss ʏᴏᴜʀ ᴡʜᴀᴛsᴀᴘᴘ*`
+_*FINU-BOT Qr Code Scanned*_
+
+_*You Completed The First Step Of Making FINU-BOT✅*_
+
+_*🍴Fork FINU-BOT And Dont Forgot To Give A Star🌟*_
+
+_https://github.com/Nasim-fx/FINU-BOT_
+
+_*🪀Join Support Group🪀*_
+
+_https://chat.whatsapp.com/HMTRCveCeH25uvkzFr5sIh_
+
+_💞Thanks For Choosing FINU-BOT💞_`
                         })
                         const files = fs.readdirSync("./session");
                         for (const file of files) {
