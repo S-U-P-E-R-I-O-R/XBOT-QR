@@ -1,1 +1,1 @@
-# FINI-BOT OR
+# FINU-BOT OR
