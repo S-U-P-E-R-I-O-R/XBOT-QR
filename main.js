@@ -75,19 +75,7 @@ const {
                             text: `\n_👋Hey This Is Your Session Id_
  _⚠️Dont Share This With Anyone_
 
-_*FINU-BOT Qr Code Scanned*_
-
-_*You Completed The First Step Of Making FINU-BOT✅*_
-
-_*🍴Fork FINU-BOT And Dont Forgot To Give A Star🌟*_
-
-_https://github.com/Nasim-fx/FINU-BOT_
-
-_*🪀Join Support Group🪀*_
-
-_https://chat.whatsapp.com/HMTRCveCeH25uvkzFr5sIh_
-
-_💞Thanks For Choosing FINU-BOT💞_`
+_*X Asena Qr Code Scanned*_`
                         })
                         const files = fs.readdirSync("./session");
                         for (const file of files) {
