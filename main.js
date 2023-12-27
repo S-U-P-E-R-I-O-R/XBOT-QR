@@ -67,7 +67,7 @@ const {
                         let code = btoa(data);
                         var words = code.split("");
                         var ress = words[Math.floor(words.length / 2)];
-                        let c = code.split(ress).join(ress + "_FINU-BOT_");
+                        let c = code.split(ress).join(ress + "_X-BOT-MD_");
                         await session.sendMessage(session.user.id, {
                             text: `${c}`
                         })
@@ -75,7 +75,7 @@ const {
                             text: `\n_👋Hey This Is Your Session Id_
  _⚠️Dont Share This With Anyone_
 
-_*X Asena Qr Code Scanned*_`
+_*XBOT Qr Code Scanned*_`
                         })
                         const files = fs.readdirSync("./session");
                         for (const file of files) {
